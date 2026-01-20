@@ -8,9 +8,14 @@ public class PartE {
         };
 
         // 1. Print center value
+        System.out.println();
+        System.out.println("The value in grid (1,1)");
         System.out.println(grid[1][1]);
 
+        System.out.println();
+
         // 2. Print four corners
+        System.out.println("The four corners point");
         System.out.println(grid[0][0]);
         System.out.println(grid[0][2]);
         System.out.println(grid[2][0]);
@@ -19,7 +24,9 @@ public class PartE {
         // 3. Change bottom-right value to 99
         grid[2][2] = 99;
 
+        System.out.println();
         // 4. Print full grid manually
+        System.out.println("ALL VALUE FROM GRID");
         System.out.println(grid[0][0]);
         System.out.println(grid[0][1]);
         System.out.println(grid[0][2]);
@@ -28,6 +35,6 @@ public class PartE {
         System.out.println(grid[1][2]);
         System.out.println(grid[2][0]);
         System.out.println(grid[2][1]);
-        System.out.println(grid[2][2]);
+        System.out.println(grid[2][2] + " <=== The changed value");
     }
 }

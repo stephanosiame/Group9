@@ -16,16 +16,20 @@ public class PartF {
             }
         };
 
+        System.out.println("Value in (1,0,1)");
         // 1. Print element 6
         System.out.println(cube[1][0][1]);
 
+        System.out.println();
+
         // 2. Change 4 to 40
         cube[0][1][1] = 40;
-
+        
         // 3. Print first layer manually
+        System.out.println("ALL VALUES");
         System.out.println(cube[0][0][0]);
         System.out.println(cube[0][0][1]);
         System.out.println(cube[0][1][0]);
-        System.out.println(cube[0][1][1]);
+        System.out.println(cube[0][1][1] + " <=== Value that is changed from 4 to 40");
     }
 }

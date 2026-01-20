@@ -13,17 +13,24 @@ public class PartB {
         };
 
         // 1. Print element at row 0, column 1
+        System.out.println("Value of matrix [0][1]");
         System.out.println(matrix[0][1]); // 20 output
 
+        System.out.println();
+
         // 2. Print element at row 1, column 2
+        System.out.println("Element at row 1, column 2");
         System.out.println(matrix[1][2]); // 60 output
+
+        System.out.println();
 
         // 3. Change 20 to 25
         matrix[0][1] = 25;
-
+        
         // 4. Print all elements manually with its index
+        System.out.println("ALL Values and the matrix [0][1] changed from 20 to 25");
         System.out.println(matrix[0][0]);
-        System.out.println(matrix[0][1]);
+        System.out.println(matrix[0][1] +" <===");
         System.out.println(matrix[0][2]);
         System.out.println(matrix[1][0]);
         System.out.println(matrix[1][1]);

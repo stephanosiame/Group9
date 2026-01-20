@@ -7,7 +7,7 @@ public class PartG {
     public static void main(String[] args) {
 
         int[] numbers = {5, 2, 9, 1, 7};
-
+        System.out.println("Sorted number in array ascending order");
         // 1. sort() - Sorts the array in ascending order
         Arrays.sort(numbers);
 
@@ -25,19 +25,26 @@ public class PartG {
         int[] b = {1, 2, 3};
         System.out.println(Arrays.equals(a, b));
 
+        System.out.println();
+
         // 6. copyOf() - Copies array with new length
         int[] copy = Arrays.copyOf(a, 5);
 
         // 7. copyOfRange() - Copies a range of elements
         int[] range = Arrays.copyOfRange(a, 0, 2);
 
+        System.out.println();
         // 8. hashCode() - Returns hash code of array
         System.out.println(Arrays.hashCode(a));
 
+        System.out.println();
+        System.out.println("Prints Multidimensional Arrays");
         // 9. deepToString() - Prints multidimensional arrays
         int[][] matrix = {{1, 2}, {3, 4}};
         System.out.println(Arrays.deepToString(matrix));
 
+        System.out.println();
+        System.out.println("Multidimensional Array Compare");
         // 10. deepEquals() - Compares multidimensional arrays
         int[][] mult1 = {{1, 2}};
         int[][] mult2 = {{1, 2}};
